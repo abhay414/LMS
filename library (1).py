@@ -3,7 +3,7 @@ import pywhatkit
 c=mysql.connector.connect(
     host="localhost",
     user="root",
-    password="abhay.1111"
+    password="YOUR_PASSWORD"
     )
 cursor = c.cursor()              #CURSOR=IT ALLOW PYTHON CODE TO EXECUTE SQL COMMAND IN A DATABASE SESSION(IT ACTUALLY POINTS TO RESULT,DATA ETC)
 cursor.execute("create database if not exists library")#TO CREATE DATABASE IF IT DOES NOT EXIST
@@ -282,3 +282,4 @@ while True:
         break
     else:                        #
         print("INVALID CHOICE")#
+
