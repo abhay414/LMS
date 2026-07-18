@@ -1,4 +1,4 @@
-import mysql.connector           #MYSQL CONNECTION
+import mysql.connector           #LIBRARY MYSQL CONNECTION
 import pywhatkit
 c=mysql.connector.connect(
     host="localhost",
